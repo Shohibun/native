@@ -1,4 +1,77 @@
 /* =====================
+CONTAINER
+===================== */
+.container-fluid {
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: var(--space-md);
+  padding-right: var(--space-md);
+}
+
+.container {
+  width: 83.333333%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: var(--space-md);
+  padding-right: var(--space-md);
+}
+
+/* =====================
+WIDTH & HEIGHT
+===================== */
+.w-full {
+  width: 100%;
+}
+.w-auto {
+  width: auto;
+}
+.w-1\/2 {
+  width: 50%;
+}
+.w-10\/12 {
+  width: 83.333333%;
+}
+.w-5 {
+  width: 1.25rem;
+}
+.w-10 {
+  width: 2.5rem;
+}
+.w-15 {
+  width: 3.75rem;
+}
+.w-20 {
+  width: 5rem;
+}
+.w-25 {
+  width: 6.25rem;
+}
+.h-5 {
+  height: 1.25rem;
+}
+.h-10 {
+  height: 2.5rem;
+}
+.h-15 {
+  width: 3.75rem;
+}
+.h-20 {
+  width: 5rem;
+}
+.h-25 {
+  width: 6.25rem;
+}
+.h-full {
+  height: 100%;
+}
+.h-screen {
+  height: 100vh;
+}
+
+/* =====================
 FLEX
 ===================== */
 .flex {
@@ -38,6 +111,12 @@ GRID
 .grid-3 {
   grid-template-columns: repeat(3, 1fr);
 }
+.grid-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+.gap-xs {
+  gap: var(--space-xs);
+}
 .gap-sm {
   gap: var(--space-sm);
 }
@@ -46,86 +125,29 @@ GRID
 }
 
 /* =====================
-CONTAINER
+BACKGROUND
 ===================== */
-.container-fluid {
-  width: 100%;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: var(--space-md);
-  padding-right: var(--space-md);
+.bg-blue-100 {
+  background-color: var(--color-blue-100);
 }
-
-.container {
-  width: 66.67%;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: var(--space-md);
-  padding-right: var(--space-md);
+.bg-blue-200 {
+  background-color: var(--color-blue-200);
+}
+.bg-blue-400 {
+  background-color: var(--color-blue-400);
 }
 
 /* =====================
-WIDTH & HEIGHT
+FONT
 ===================== */
-.w-full {
-  width: 100%;
+.font-bold {
+  font-weight: 700;
 }
-.w-auto {
-  width: auto;
+.font-light {
+  font-weight: 300;
 }
-.w-1\/2 {
-  width: 50%;
-}
-.h-full {
-  height: 100%;
-}
-.h-screen {
-  height: 100vh;
-}
-
-/* =====================
-MARGIN
-===================== */
-.m-0 {
-  margin: 0;
-}
-.mt-sm {
-  margin-top: var(--space-sm);
-}
-.mt-md {
-  margin-top: var(--space-md);
-}
-.mb-sm {
-  margin-bottom: var(--space-sm);
-}
-.mb-md {
-  margin-bottom: var(--space-md);
-}
-.mx-auto {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/* =====================
-PADDING
-===================== */
-.p-sm {
-  padding: var(--space-sm);
-}
-.p-md {
-  padding: var(--space-md);
-}
-.pt-sm {
-  padding-top: var(--space-sm);
-}
-.pb-sm {
-  padding-bottom: var(--space-sm);
-}
-.px-md {
-  padding-left: var(--space-md);
-  padding-right: var(--space-md);
+.no-underline {
+  text-decoration-line: none;
 }
 
 /* =====================
@@ -151,6 +173,37 @@ TEXT
 }
 .text-right {
   text-align: right;
+}
+.text-white {
+  color: var(--color-white);
+}
+.text-gray-400 {
+  color: var(--color-gray-400);
+}
+.text-gray-400:hover {
+  color: var(--color-blue-400);
+}
+.text-blue-400 {
+  color: var(--color-blue-400);
+}
+.text-blue-400:hover {
+  color: var(--color-blue-700);
+}
+
+/* =====================
+BORDER
+===================== */
+.pointer {
+  cursor: pointer;
+}
+
+/* =====================
+BORDER
+===================== */
+.border-2 {
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
 }
 
 /* =====================
@@ -187,6 +240,67 @@ Z - INDEX
 }
 .z-100 {
   z-index: 100;
+}
+
+/* =====================
+MARGIN
+===================== */
+.mt-Msm {
+  margin-top: -10px;
+}
+.mt-Mmd {
+  margin-top: -16px;
+}
+.mt-0 {
+  margin-top: 0;
+}
+.mt-xxxs {
+  margin-top: var(--space-xxxs);
+}
+.mt-xxs {
+  margin-top: var(--space-xxs);
+}
+.mt-xs {
+  margin-top: var(--space-xs);
+}
+.mt-sm {
+  margin-top: var(--space-sm);
+}
+.mt-md {
+  margin-top: var(--space-md);
+}
+.mt-xl {
+  margin-top: var(--space-xl);
+}
+.mb-sm {
+  margin-bottom: var(--space-sm);
+}
+.mb-md {
+  margin-bottom: var(--space-md);
+}
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* =====================
+PADDING
+===================== */
+.p-sm {
+  padding: var(--space-sm);
+}
+.p-md {
+  padding: var(--space-md);
+}
+.pt-sm {
+  padding-top: var(--space-sm);
+}
+.pb-sm {
+  padding-bottom: var(--space-sm);
+}
+.px-md {
+  padding-left: var(--space-md);
+  padding-right: var(--space-md);
 }
 
 /* ===============================================RESPONSIVITAS=============================================== */

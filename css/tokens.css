@@ -8,6 +8,10 @@ COLORS
   --color-danger: #dc2626;
   --color-black: #000000;
   --color-white: #ffffff;
+  --color-blue-100: #eff6ff;
+  --color-blue-200: #dbeafe;
+  --color-blue-400: #72a5ea;
+  --color-blue-700: #1447e6;
   --color-gray-100: #f3f4f6;
   --color-gray-300: #d1d5db;
   --color-gray-400: #9ca3af;
@@ -33,6 +37,8 @@ TYPOGRAPHY
   /* =====================
 SPACING
 ===================== */
+  --space-xxxs: 1px;
+  --space-xxs: 2px;
   --space-xs: 4px;
   --space-sm: 8px;
   --space-md: 16px;
