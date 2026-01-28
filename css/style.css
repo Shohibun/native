@@ -2,9 +2,81 @@
 @import "utilities.css";
 @import "components.css";
 
+/* ============================= */
+/* CSS RESET (TAILWIND-LIKE)     */
+/* ============================= */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100%;
+}
+
 body {
   font-family: system-ui, sans-serif;
   font-size: var(--text-base);
   background: var(--color-gray-100);
   color: var(--color-black);
+}
+
+/* ============================= */
+/* RESET TYPOGRAPHY SIZE         */
+/* ============================= */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+small,
+strong,
+em,
+b,
+i,
+label {
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+}
+
+/* ============================= */
+/* REMOVE DEFAULT BLOCK SPACING  */
+/* ============================= */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Lists */
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+}
+
+/* Forms */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  color: inherit;
+  margin: 0;
 }

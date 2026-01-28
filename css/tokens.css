@@ -37,8 +37,8 @@ TYPOGRAPHY
   /* =====================
 SPACING
 ===================== */
-  --space-xxxs: 1px;
-  --space-xxs: 2px;
+  --space-3xs: 1px;
+  --space-2xs: 2px;
   --space-xs: 4px;
   --space-sm: 8px;
   --space-md: 16px;

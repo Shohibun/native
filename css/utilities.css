@@ -138,6 +138,16 @@ BACKGROUND
 }
 
 /* =====================
+LIST
+===================== */
+.list-disc {
+  list-style-type: disc;
+}
+.list-decimal {
+  list-style-type: decimal;
+}
+
+/* =====================
 FONT
 ===================== */
 .font-bold {
@@ -183,6 +193,9 @@ TEXT
 .text-gray-400:hover {
   color: var(--color-blue-400);
 }
+.text-gray-700 {
+  color: var(--color-gray-700);
+}
 .text-blue-400 {
   color: var(--color-blue-400);
 }
@@ -191,7 +204,7 @@ TEXT
 }
 
 /* =====================
-BORDER
+CURSOR
 ===================== */
 .pointer {
   cursor: pointer;
@@ -245,19 +258,13 @@ Z - INDEX
 /* =====================
 MARGIN
 ===================== */
-.mt-Msm {
-  margin-top: -10px;
-}
-.mt-Mmd {
-  margin-top: -16px;
-}
 .mt-0 {
   margin-top: 0;
 }
-.mt-xxxs {
+.mt-3xs {
   margin-top: var(--space-xxxs);
 }
-.mt-xxs {
+.mt-2xs {
   margin-top: var(--space-xxs);
 }
 .mt-xs {
@@ -272,6 +279,9 @@ MARGIN
 .mt-xl {
   margin-top: var(--space-xl);
 }
+.mb-0 {
+  margin-bottom: 0;
+}
 .mb-sm {
   margin-bottom: var(--space-sm);
 }
@@ -281,6 +291,10 @@ MARGIN
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
+}
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 /* =====================
