@@ -202,6 +202,9 @@ TEXT
 .text-blue-400:hover {
   color: var(--color-blue-700);
 }
+.text-blue-700 {
+  color: var(--color-blue-700);
+}
 
 /* =====================
 CURSOR
@@ -319,17 +322,17 @@ PADDING
 
 /* ===============================================RESPONSIVITAS=============================================== */
 /* Mobile (default) */
-@media (min-width: 640px) {
+@media (max-width: 640px) {
 }
 
 /* Tablet */
-@media (min-width: 768px) {
+@media (max-width: 768px) {
 }
 
 /* Laptop */
-@media (min-width: 1024px) {
+@media (max-width: 1024px) {
 }
 
 /* Desktop besar (opsional) */
-@media (min-width: 1280px) {
+@media (max-width: 1280px) {
 }
