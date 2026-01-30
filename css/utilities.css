@@ -199,9 +199,6 @@ TEXT
 .text-blue-400 {
   color: var(--color-blue-400);
 }
-.text-blue-400:hover {
-  color: var(--color-blue-700);
-}
 .text-blue-700 {
   color: var(--color-blue-700);
 }
