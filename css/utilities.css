@@ -178,6 +178,9 @@ TEXT
 .text-2xl {
   font-size: var(--text-2xl);
 }
+.text-4xl {
+  font-size: var(--text-4xl);
+}
 .text-center {
   text-align: center;
 }
